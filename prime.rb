@@ -7,11 +7,11 @@ def prime?(integer)
   end 
   
   i = 4
-  while i*i  <= integer do
-    if integer % i == 0 || integer % (i + 2) == 0 
+  while i < integer do
+    if integer % i == 0 
       return false
     end
-    i += 6
+    i += 1
   end 
   return true
 end
