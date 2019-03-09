@@ -6,6 +6,11 @@ def prime?(integer)
     return true
   end 
   
-  range = integer
+  i = 5
+  while i*i  <= integer do
+    if integer % i == 0 || integer % (i + 2) == 0 
+      return false
+    end
+  end 
   
 end
