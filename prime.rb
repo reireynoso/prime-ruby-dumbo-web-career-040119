@@ -7,10 +7,5 @@ def prime?(integer)
   end 
   
   range = integer
-  for d in (1..range)
-    if integer % d == 0
-      return true
-    else return false 
-    end
-  end
+  
 end
