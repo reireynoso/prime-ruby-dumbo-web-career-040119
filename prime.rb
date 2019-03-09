@@ -7,7 +7,7 @@ def prime?(integer)
   end 
   
   i = 4
-  while i < integer do
+  while i <= integer do
     if integer % i == 0 
       return false
     end
