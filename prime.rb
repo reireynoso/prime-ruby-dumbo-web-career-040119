@@ -1,9 +1,9 @@
 # Add  code here!
 def prime?(integer)
-  if integer <= 3
+  if integer < 0 
+    return false 
+  elsif integer <= 3
     return true
-  elsif integer < 0
-    return false
   end 
   range = integer
   for d in (1..range)
