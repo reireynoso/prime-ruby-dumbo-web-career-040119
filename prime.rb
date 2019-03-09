@@ -6,7 +6,7 @@ def prime?(integer)
     return true
   end 
   
-  i = 5
+  i = 4
   while i*i  <= integer do
     if integer % i == 0 || integer % (i + 2) == 0 
       return false
