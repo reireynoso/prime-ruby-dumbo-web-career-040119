@@ -11,6 +11,7 @@ def prime?(integer)
     if integer % i == 0 || integer % (i + 2) == 0 
       return false
     end
+    i += 6
   end 
-  
+  return true
 end
