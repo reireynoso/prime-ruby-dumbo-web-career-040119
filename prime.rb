@@ -1,7 +1,7 @@
 # Add  code here!
 def prime?(integer)
   if integer <= 3
-    return false 
+    return true
   end 
   range = integer
   for d in (1..range)
